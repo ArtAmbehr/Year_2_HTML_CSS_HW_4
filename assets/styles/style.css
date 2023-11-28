@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url("assets\fonts\gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("assets\fonts\gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("assets\fonts\gilroy-mediumttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("assets\fonts\gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+   
+
+.base-container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    padding-top: 40px;
+    padding-right: 31px;
+    padding-left: 29px;
+    padding-bottom: 25px;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.icon {
+    margin-bottom: 25px;
+}
+
+.title {
+    margin-bottom: 17px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraph {
+    margin-bottom: 25px;
+    color: #666;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.button {
+    color: #000;    
+    font-size: 11px;    
+    font-weight: 400;
+    line-height: 150%;
+    border: none;
+    background-color: white;
+}
+
